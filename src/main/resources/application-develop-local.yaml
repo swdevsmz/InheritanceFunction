@@ -1,0 +1,17 @@
+spring:
+  main:
+    web-application-type: Reactive
+  cloud:
+    function:
+      definition: helloWordFunction
+      routing-expression: helloWordFunction
+      routing:
+        enabled: true
+
+
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          function: DEBUG

@@ -1,0 +1,21 @@
+
+spring:
+  main:
+    web-application-type: none
+  # cloud:
+  #   function:
+  #     definition: helloWorldFunction
+#      routing-expression: headers.helloWordFunction
+#      routing:
+#        enabled: true
+#  cloud:
+#    function:
+#      scan:
+#        packages: com.example.functiondemo.function
+
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          function: DEBUG
